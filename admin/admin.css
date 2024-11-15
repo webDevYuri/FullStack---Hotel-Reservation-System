@@ -1,0 +1,62 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", serif !important;
+    height: 100vh;
+}
+
+header {
+    margin-left: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+}
+
+div.hotel-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hotel-logo img {
+    border-radius: 23% 0% 24% 0% / 22% 10% 23% 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+ul li.active-link {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+li.aside-link {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+li.aside-link:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.main {
+    margin-left: 300px;
+}
+
