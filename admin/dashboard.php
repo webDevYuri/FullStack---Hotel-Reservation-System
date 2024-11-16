@@ -74,18 +74,6 @@
             </li>
             <li class="aside-link hover:bg-gradient-to-r from-blue-200 to-blue-100 hover:px-3 rounded-xl duration-200 ease-in hover:h-[40px]">
                 <a href="#" class="text-slate-600 flex items-center">
-                    <i class="fa-solid fa-users w-[50px] text-slate-600 text-xl"></i>
-                    Staffs
-                </a>
-            </li>
-            <li class="aside-link hover:bg-gradient-to-r from-blue-200 to-blue-100 hover:px-3 rounded-xl duration-200 ease-in hover:h-[40px]">
-                <a href="#" class="text-slate-600 flex items-center">
-                    <i class="fa-solid fa-boxes-stacked w-[50px] text-slate-600 text-xl"></i>
-                    Inventory
-                </a>
-            </li>
-            <li class="aside-link hover:bg-gradient-to-r from-blue-200 to-blue-100 hover:px-3 rounded-xl duration-200 ease-in hover:h-[40px]">
-                <a href="#" class="text-slate-600 flex items-center">
                     <i class="fa-solid fa-chart-line w-[50px] text-slate-600 text-xl"></i>
                     Statistics
                 </a>
@@ -163,10 +151,6 @@
                         <h1 class="mt-4 text-xl font-semibold text-slate-700">Total Rooms</h1>
                     </a>
                     <a href="#" class="shadow-lg h-[200px] rounded-lg bg-white  flex flex-col items-center justify-center w-full">
-                        <i class="fas fa-user text-4xl text-slate-600"></i>
-                        <h1 class="mt-4 text-xl font-semibold text-slate-700">Staff</h1>
-                    </a>
-                    <a href="#" class="shadow-lg h-[200px] rounded-lg bg-white  flex flex-col items-center justify-center w-full">
                         <i class="fas fa-comment-dots text-4xl text-slate-600"></i>
                         <h1 class="mt-4 text-xl font-semibold text-slate-700">Feedback</h1>
                     </a>
@@ -175,10 +159,6 @@
                     <a href="#" class="shadow-lg w-full h-[200px] rounded-lg justify-center items-center flex flex-col  bg-white">
                         <i class="fas fa-wallet text-4xl text-slate-600"></i>
                         <h1 class="mt-4 text-xl font-semibold text-slate-700">Total Earnings</h1>
-                    </a>
-                    <a href="#" class="shadow-lg w-full h-[200px] rounded-lg justify-center items-center flex flex-col  bg-white">
-                        <i class="fas fa-box text-4xl text-slate-600"></i>
-                        <h1 class="mt-4 text-xl font-semibold text-slate-700">Inventory</h1>
                     </a>
                 </div>
             </div>

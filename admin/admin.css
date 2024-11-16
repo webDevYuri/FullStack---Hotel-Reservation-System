@@ -60,3 +60,27 @@ li.aside-link:hover {
     margin-left: 300px;
 }
 
+.create-admin-body {
+    background-image: url(../assets/bg/bg1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form.new-admin-form {
+    background-color: rgba(38, 92, 27, 0.189);
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+#preview {
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 43px;
+    left: 50%;
+    transform: translateX(-50%);
+}

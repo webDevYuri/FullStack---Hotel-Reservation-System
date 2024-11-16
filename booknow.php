@@ -15,54 +15,56 @@
 </head>
 <body class="bg-green-50">
 
-<header>
-        <nav class="navbar hidden sm:block py-2 fixed top-0 left-0 w-full z-50">
-            <div class="header-top-element duration-300 flex items-center justify-center text-white font-semibold mb-2 px-10">
-                <div class="flex items-center">
-                    <i class="fa-solid fa-star text-orange-400"></i>
-                    <p class="px-2 text-green-700">Don't miss out – Book Your Perfect Stay Today!</p>
-                    <i class="fa-solid fa-star text-orange-400"></i>
+    <header class="book-now-header">
+        <div class="navbar hidden sm:block py-2 z-20 shadow-md">
+            <div class="flex items-center justify-center font-semibold mb-2 px-10">
+                <div class="flex items-center text-slate-700 drop-shadow-md">
+                    <i class="fa-solid fa-star"></i>
+                    <p class="px-2">Don't miss out – Book Your Perfect Stay Today!</p>
+                    <i class="fa-solid fa-star"></i>
                 </div>
             </div>
 
             <hr class="header-hr duration-300">
 
-            <div class="2xl:p-10 p-5 nav-link-list flex justify-center items-center relative">
-                <ul class="nav-container flex items-center 2xl:gap-7 xl:gap-2 gap-1 justify-center">
-                    <li>
-                        <a href="index.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">HOME</a>
-                    </li>
-                    <li>
-                        <a href="facilities.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">FACILITIES</a>
-                    </li>
-                    <li>
-                        <a href="rooms.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-md text-sm font-semibold text-green-50 px-3 py-2 me-2">ROOMS</a>
-                    </li>
-                    <li>
-                        <a href="index.php"><img src="assets/logo/logo.png" alt="LOGO" class="duration-1000 ease-in logo-image p-2"></a>
-                    </li>
-                    <li>
-                        <a href="offers.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2 ml-2">OFFERS</a>
-                    </li>
-                    <li>
-                        <a href="gallery.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">GALLERY</a>
-                    </li>
-                    <li>
-                        <a href="contact.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">CONTACT</a>
-                    </li>
-                </ul>
+            <div class="py-3 flex justify-center items-center">
+                <a href="index.php"><img src="assets/logo/logo.png" alt="LOGO" class="duration-1000 ease-in logo-image p-2"></a>
             </div>
-        </nav>
-
-        <div class="flex sm:hidden justify-between p-5 mobile-navbar fixed top-0 left-0 w-full z-40">
-            <a href="index.php"><img src="assets/logo/logo.png" alt="LOGO" class="mobile-logo-image duration-500 ease-in w-24 p-2"></a>
-            <button onclick="toggleSidebar()" id="menuBtn" class="text-3xl font-bold text-green-50">
-                <i class="fa-solid fa-bars" id="menuIcon"></i>
-            </button>
         </div>
     </header>
 
-    <div class="main h-full"></div>
+    <div class="main h-full px-10 mt-10">
+        <div>
+            <form action="" class="flex gap-10">
+                <div class="inputs w-full">
+                    <div class="input-field flex flex-col">
+                        <label for="name">Fullname</label>
+                        <input type="text" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="input-field flex flex-col">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Email address">
+                    </div>
+                    <div class="input-field flex flex-col">
+                        <label for="phone">Phone</label>
+                        <input type="number" placeholder="Phone number">
+                    </div>
+                    <div class="input-field flex flex-col">
+                        <label for="checkIn">Check In</label>
+                        <input type="date" id="checkIn" name="checkIn">
+                    </div>
+                    <div class="input-field flex flex-col">
+                        <label for="checkOut">Check Out</label>
+                        <input type="date" id="checkOut" name="checkOut">
+                    </div>
+                    <div class="button">
+                        <a href="#" class="bg-green-950 text-green-50 px-3 py-1 rounded-sm">Reserve Room</a>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
     
     <?php include 'reusable/footer.php' ?>
 
